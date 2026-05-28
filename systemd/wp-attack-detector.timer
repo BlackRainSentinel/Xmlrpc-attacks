@@ -1,0 +1,13 @@
+[Unit]
+Description=WP Attack Detector - Scheduled Scan Timer
+Documentation=https://github.com/BlackRainSentinel/wp-attack-detector
+Requires=wp-attack-detector.service
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+AccuracySec=1min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

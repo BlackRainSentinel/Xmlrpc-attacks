@@ -1,0 +1,16 @@
+[Unit]
+Description=WP Attack Detector - WordPress Attack Monitoring
+Documentation=https://github.com/BlackRainSentinel/wp-attack-detector
+After=network.target iptables.service
+Wants=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/wp-attack-detector --scan --report --quiet
+User=root
+StandardOutput=journal
+StandardError=journal
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target
