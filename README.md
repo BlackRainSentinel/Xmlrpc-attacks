@@ -234,5 +234,4 @@ MIT — see [LICENSE](LICENSE)
 
 ## Author
 
-**BlackRainSentinel** — Linux Security Specialist & Systems Administrator
-Focused on shared hosting security, abuse incident response, and automated forensic workflows.
+**BlackRainSentinel**
