@@ -72,7 +72,7 @@ class C:
     BG_BLUE   = "\033[44m"
 
 # ============================================================
-# Configuration
+## Configuration
 # ============================================================
 LOG_DIR          = Path("/var/log/wp-attack-detector")
 LOG_FILE         = LOG_DIR / "audit.log"
