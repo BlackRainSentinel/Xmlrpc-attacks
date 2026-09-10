@@ -1,4 +1,4 @@
-# WP Attack Detector
+# Wp Attack Detector
 <p align="center">
   <img src="docs/banner.png" alt="WP Attack Detector" width="720">
 </p>
